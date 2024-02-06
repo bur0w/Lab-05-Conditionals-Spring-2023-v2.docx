@@ -12,15 +12,15 @@ public class Main {
         double totalPrice;
 
         if (price >= 100) {
-            shippingCost = 0; // Shipping is free
+            shippingCost = 0; 
         } else {
-            shippingCost = 0.02 * price; // 2% of the price
+            shippingCost = 0.02 * price; 
         }
 
         totalPrice = price + shippingCost;
 
         System.out.println("Shipping cost: $" + shippingCost);
-        System.out.println("Total price: $" + totalPrice);
+        System.out.println("Total: $" + totalPrice);
 
         scanner.close();
     }
